@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #cacacf; 
+    background-color: #181833; 
     color: #333;
     line-height: 1.6;
     margin: 0;
@@ -15,15 +15,15 @@ body {
 
 /* Cabeçalho */
 header {
-    background-color: #2089E5;
+    background-color: #4A4A7D;
     color: #fff;
     padding: 2rem 0;
     text-align: center;
 }
 
 .profile-photo {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     object-fit: cover;
     border: 4px solid #fff; 
@@ -43,11 +43,11 @@ p {
 /* Navegação */
 nav ul {
     list-style: none;
-    padding: 0;
-    margin: 0;
+    padding: 4;
+    margin: 4;
     display: flex;
     justify-content: center;
-    background-color: #2d5277;
+    background-color: #333333;
     position: sticky;
     top: 0;
     z-index: 100;
@@ -55,18 +55,18 @@ nav ul {
 
 nav ul li a {
     text-decoration: none;
-    color: #fff;
+    color: white;
     font-weight: bold;
     padding: 10px 20px; 
-    border-radius: 5px; 
+    border-radius: 10px; 
     transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 nav ul li a:hover {
-    background-color: #1ABC9C;
+    background-color: #1E1E2F;
     color: #fff;
     transform: scale(1.0);
-    border-radius: 10px; 
+    border-radius: 15px; 
 }
 
 /* Seções */
@@ -75,8 +75,8 @@ section {
     text-align: center;
 }
 
-#sobre, #contato {
-    background-color: #ecf0f1; 
+#sobre, #projetos{
+    background-color: #1E1E2F; 
     border-radius: 10px;
     margin-bottom: 1.5rem;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -84,18 +84,18 @@ section {
 
 h2 {
     font-size: 2rem;
-    color: #2C3E50;
+    color: #bdbdbd;
     margin-bottom: 1rem;
 }
 
 p {
     font-size: 1.1rem;
-    color: #000000;
+    color: #ffffff;
 }
 
 /* Projetos */
-#projetos {
-    background-color: #fff;
+#contato {
+    background-color: #4A4A7D;
 }
 
 .project-grid {
@@ -106,9 +106,9 @@ p {
 }
 
 .project-card {
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 10px;
+    background-color: #ffffff;
+    border: 1px solid #1E1E2F;
+    border-radius: 25px;
     padding: 1.5rem;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
